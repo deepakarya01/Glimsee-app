@@ -1,6 +1,7 @@
 # Glimsee - A Social Media Application
 
 Glimsee is a dynamic social media platform designed for seamless connection and content sharing. Built with a robust MERN (MongoDB, Express.js, React, Node.js) stack, it offers a smooth user experience for interacting with friends, sharing thoughts, and discovering new content.
+![Image](https://github.com/user-attachments/assets/1dbde6ee-b336-4292-b02a-907b53c699f3)
 
 ## ✨ Features
 
