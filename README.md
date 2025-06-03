@@ -28,3 +28,42 @@ Glimsee is a dynamic social media platform designed for seamless connection and 
 * **bcryptjs:** For secure password hashing.
 * **jsonwebtoken:** For handling JSON Web Tokens (JWT) for authentication.
 * **cookie-parser:** Middleware for parsing HTTP cookies.
+
+
+## ⚙️ Local Development Setup
+To get a local copy up and running, follow these simple steps.
+
+### Prerequisites
+
+* Node.js (LTS version recommended)
+* npm (comes with Node.js) or Yarn
+* MongoDB (running locally or a cloud service like MongoDB Atlas)
+* Git
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/deepakarya01/Glimsee-app
+cd Glimsee-app
+
+### 2. Backend setup
+cd backend
+npm install
+
+### 3. Run the backend
+npm run dev
+
+### 4. Frontend setup
+cd frontend
+npm install
+
+### 5. Run the frontend
+npm run dev
+
+### 6. Create .env file in backend folder
+MONGO_URI=yourmongodbconnectionstring
+JWT_SECRET=yourjwtsecretkey
+PORT=5000 Or # your desired port
+CLOUDINARY_CLOUD_NAME=yourcloudinarycloudname
+CLOUDINARY_API_KEY=yourcloudinaryapikey
+CLOUDINARY_API_SECRET=yourcloudinarysecre
